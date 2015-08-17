@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - oraclejdk6
+deploy:
+  provider: releases
+  api_key: ${env.GITHUBAUTH}
+  file: "target/Scrubber.jar"
+  skip_cleanup: true
+  on:
+    tags: true
