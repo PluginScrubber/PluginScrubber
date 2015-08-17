@@ -3,6 +3,8 @@ jdk:
   - oraclejdk7
 deploy:
   provider: releases
+  api_key:
+    secure: b9tTeWCTySjPCslMJ12ff2xqpy1DSGtfEvqATdz6FVlHF9DOZ3MA/HSyOqz/jeaFbYzXnNdGxykfcFAsoNBCMkzMIO5IKqKXBdlHjEBundqeI3uKB/PjwgxVZXdsR5t6KWKSjr68UHhunUXT2R3ZXDftbfFQK2KRG8EQVFMd+i329QMfTZTRiaiX1Ykb0XpYTX/CO3nhVNN3g/shgaGHK/6UrJYaWuDL9dBLFifsKYBAGDX9tlW+nUa/O9t4eRH5FQ3Gpj85OY9VT0DgJcu4DH9HROb85JvPYYxf21g6uTekFFQ4rA2eiJ1TFqkdlM0GzFiBJzCKVaETphJto+931yz1n4mLALakSBv1wHf5vlJD92xpITXJlqZuCDCTXn6N8D51wrmWV43EasvIzdl7rGE4sAxr7A/1FVT2+QIZGZ306XbkNAGZfObBBY9+P/pr8L5Ddrh6Fh++p0kDAj3ETjFKxE4eiP/H0da/NurLWx8ihe3UE2zX2yeB06k4m4uQYcCVkHBIx5liGeWJ+3ugZ3dqb8lOL42yTNuGoa4F96n5hPuuCqfto12n49RPa11bY0KLAZeKLhxj9YOfFsP+TUkMwlogM8u/gGHcYEzzbYrHDsgCOPF/QShI3q+ViVK5p1atqJ1rFdp+3TDwUvrT4LUzQK275rX/6Ko4GE2RMHQ=
   file: "target/Scrubber.jar"
   skip_cleanup: true
   on:
