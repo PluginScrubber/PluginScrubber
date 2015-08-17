@@ -6,7 +6,7 @@
 
     <groupId>dont.want.no.scrubs</groupId>
     <artifactId>PluginScrubber</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <description>
         There have been reports of malicious code being injected into plugins without author knowledge.
